@@ -1,0 +1,44 @@
+/* start of global styles */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+/*styling a*/
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-green {
+  background-color: #2c3e50;
+  padding: 5px 10px;
+  color: white;
+}
+.btn-green a,
+.btn-blue a {
+  padding: 5px 10px;
+  text-transform: capitalize;
+}
+.btn-blue {
+  background-color: #3498db;
+  color: white;
+}
+
+/*start of nav styles*/
+nav {
+  height: 60px;
+  background-color: red;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 0px 30px;
+  border: 1px solid #000;
+}
+
+nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
